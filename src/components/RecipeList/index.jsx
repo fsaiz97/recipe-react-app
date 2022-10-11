@@ -1,9 +1,11 @@
+import Recipe from '../Recipe'
+
 function RecipeList({recipes}) {
-    console.log(recipes)
+    // console.log(recipes)
     return (
         <div id="recipe-container">
             <ul className="recipe-list">
-                {recipes.map(recipe => <li>{recipe.name}</li>)}
+                {recipes.map(recipeData => <Recipe recipeData={recipeData}/>)}
             </ul>
         </div>
     )
