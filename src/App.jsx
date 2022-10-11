@@ -8,7 +8,9 @@ import {RecipeList} from "./components"
 function App() {    
     return (
         <div>
-            <header>Recipe App</header>
+            <header>
+                <h1>Recipe App</h1>
+            </header>
             <RecipeList recipes={recipes}/>
         </div>
     )
