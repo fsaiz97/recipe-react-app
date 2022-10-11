@@ -11,7 +11,8 @@ const recipes = [
             "2 plump garlic cloves, peeled and left whole",
             "50g unsalted butter",
             "sea salt and freshly ground black pepper"
-        ]
+        ],
+        liked: false
     },
     {
         name: "chicken stir-fry",
@@ -33,7 +34,8 @@ const recipes = [
             "1 small yellow onion, chopped",
             "1 tablespoon finely grated fresh ginger",
             "4 garlic cloves, minced"
-        ]
+        ],
+        liked: false
     }
 ]
 
