@@ -23,6 +23,7 @@ function Recipe({recipeData, recipes, setRecipes}) {
                 {recipeData.ingredients.map((entry, idx) => <li className='recipe-ingredient'>{entry}</li>)}
             </ul>
             <button className='like-btn' onClick={handleLike}>Like</button>
+            <div className='triangle'/>
         </div>
     )
 }

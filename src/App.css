@@ -36,6 +36,7 @@ header {
 }
 
 .recipe {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,4 +78,16 @@ header {
 .like-btn:hover {
     color: white;
     transform: scale(1.05, 1.05);
+}
+
+.triangle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 30px 30px 0;
+    border-color: transparent #00854b transparent transparent;
+    transform:rotate(90deg);
 }
