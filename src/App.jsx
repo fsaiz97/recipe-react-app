@@ -1,11 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-// import './App.css'
+import './App.css'
 import recipes from './recipes'
 // console.log(recipes)
 import {RecipeList} from "./components"
 
-function App() {
+function App() {    
     return (
         <div>
             <header>Recipe App</header>

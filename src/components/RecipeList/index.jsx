@@ -1,9 +1,11 @@
+import React from 'react';
+
 function RecipeList({recipes}) {
     console.log(recipes)
     return (
         <div id="recipe-container">
             <ul className="recipe-list">
-                <li>Bread</li>
+                {recipes.map(recipe => <li>{recipe.name}</li>)}
             </ul>
         </div>
     )
