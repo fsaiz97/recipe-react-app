@@ -78,6 +78,7 @@ header {
 .like-btn:hover {
     color: white;
     transform: scale(1.05, 1.05);
+    cursor: pointer;
 }
 
 .triangle {
