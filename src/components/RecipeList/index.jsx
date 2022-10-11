@@ -3,7 +3,7 @@ import Recipe from '../Recipe'
 function RecipeList({recipes}) {
     // console.log(recipes)
     return (
-        <div id="recipe-container">
+        <div className="recipe-container">
             <ul className="recipe-list">
                 {recipes.map(recipeData => <Recipe recipeData={recipeData}/>)}
             </ul>
