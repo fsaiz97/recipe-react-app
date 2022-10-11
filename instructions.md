@@ -27,8 +27,9 @@ For this activity, work on your own.
 ## Guidance
 
 - This is an **independent** task, but that doesn’t mean you can’t ask for help; it just means that each person is building their own unique app.
+- Hardcode your recipe data; don't spend too much time on it though, as it's not the focus.
 - Start simple, and get more complicated: at first a list of `<h1>` tags, then a list of recipe names, then a list of recipe cards, and so on.
-- Think carefully about what should be turned into a component
+- Think carefully about what should be turned into a component.
 
 ---
 
