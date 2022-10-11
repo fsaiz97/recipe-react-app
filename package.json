@@ -1,22 +1,22 @@
 {
-  "name": "sed159-component_driven_development",
+  "name": "recipes-react-app",
   "version": "1.0.0",
-  "description": "This repository contains resources (including exemplars, instructions, and starter code) for the **Component Driven Development** module.",
+  "description": "A React app to display recipes and let users like and dislike recipes.",
   "main": "index.js",
   "scripts": {
     "dev": "vite"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fsaiz97/SED159-component_driven_development.git"
+    "url": "git+https://github.com/fsaiz97/recipes-react-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fsaiz97/SED159-component_driven_development/issues"
+    "url": "https://github.com/fsaiz97/recipes-react-app/issues"
   },
-  "homepage": "https://github.com/fsaiz97/SED159-component_driven_development#readme",
+  "homepage": "https://github.com/fsaiz97/recipes-react-app#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
