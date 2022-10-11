@@ -1,17 +1,19 @@
 import {useState} from 'react'
 
 import './App.css'
-import recipes from './recipes'
+import recipesData from './recipes'
 // console.log(recipes)
 import {RecipeList} from "./components"
 
-function App() {    
+function App() { 
+    const [recipes, setRecipes] = useState(recipesData);
+
     return (
         <div>
             <header>
                 <h1>Recipe App</h1>
             </header>
-            <RecipeList recipes={recipes}/>
+            <RecipeList recipes={recipes} setRecipes={setRecipes}/>
         </div>
     )
 }
