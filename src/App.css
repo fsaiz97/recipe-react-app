@@ -91,3 +91,7 @@ header {
     border-color: transparent #00854b transparent transparent;
     transform:rotate(90deg);
 }
+
+.hidden {
+    display: none
+}
