@@ -1,9 +1,14 @@
 import React from 'react'
+
 // import './App.css'
+import recipes from './recipes'
+// console.log(recipes)
 
 function App() {
     return (
-        <header>Recipe App</header>
+        <div>
+            <header>Recipe App</header>
+        </div>
     )
 }
 
