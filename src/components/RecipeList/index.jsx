@@ -1,7 +1,7 @@
 import Recipe from '../Recipe'
 
 function RecipeList({recipes, setRecipes}) {
-    // console.log(recipes)
+    console.log(recipes)
     return (
         <div className="recipe-container">
             <ul className="recipe-list">

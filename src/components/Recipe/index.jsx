@@ -1,6 +1,18 @@
 import React from 'react';
 
-function Recipe({recipeData}) {
+function Recipe({recipeData, recipes, setRecipes}) {
+    function handleLike() {
+        setRecipes(recipes.map(recipe => {
+            if (recipe === recipeData) {
+                return {
+                    ...recipe,
+                    liked: true
+                }
+            }
+            return recipe
+        }))
+    }
+
     return (
         <div className='recipe'>
             <div className='recipe-header'>
@@ -10,7 +22,7 @@ function Recipe({recipeData}) {
             <ul className='recipe-ingredients'>
                 {recipeData.ingredients.map((entry, idx) => <li className='recipe-ingredient'>{entry}</li>)}
             </ul>
-            <button className='like-btn'>Like</button>
+            <button className='like-btn' onClick={handleLike}>Like</button>
         </div>
     )
 }
