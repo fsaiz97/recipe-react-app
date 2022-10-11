@@ -5,7 +5,7 @@ function RecipeList({recipes, setRecipes}) {
     return (
         <div className="recipe-container">
             <ul className="recipe-list">
-                {recipes.map(recipeData => <Recipe recipeData={recipeData} recipes={recipes} setRecipes={setRecipes}/>)}
+                {recipes.map((recipeData, idx) => <Recipe key={idx} recipeData={recipeData} recipes={recipes} setRecipes={setRecipes}/>)}
             </ul>
         </div>
     )

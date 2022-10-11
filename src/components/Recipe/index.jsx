@@ -8,7 +8,7 @@ function Recipe({recipeData}) {
                 <p className='recipe-description'>{recipeData.description}</p>
             </div>
             <ul className='recipe-ingredients'>
-                {recipeData.ingredients.map((entry, idx) => <li id={`${recipeData.name}-ingredient-${idx}`} className='recipe-ingredient'>{entry}</li>)}
+                {recipeData.ingredients.map((entry, idx) => <li className='recipe-ingredient'>{entry}</li>)}
             </ul>
             <button className='like-btn'>Like</button>
         </div>
