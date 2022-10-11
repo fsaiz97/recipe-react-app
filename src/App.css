@@ -10,6 +10,10 @@ body {
     min-height: 100vh;
 }
 
+div>ul {
+    list-style-position: inside;
+}
+
 header {
     /* background-color: #5b5772; */
     border: 10px groove black;
