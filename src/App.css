@@ -36,6 +36,10 @@ header {
 }
 
 .recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0.7rem;
     padding: 0.5rem;
     background: rgb(213, 215, 228);
@@ -48,4 +52,29 @@ header {
     justify-content: space-between;
     align-items: center;
     column-gap: 1rem;
+}
+
+.recipe-ingredients {
+    column-count: 3;
+}
+
+.recipe-ingredient {
+    page-break-inside: avoid;
+}
+
+.like-btn {
+    width: 40%;
+    height: 50px;
+    margin: 10px;
+    background: linear-gradient(#00854b, #003920);
+    color: rgb(201, 201, 201);
+    font-size: 15px;
+    border: none;
+    border-radius: 5rem;
+    animation: all 1s ease-in;
+}
+
+.like-btn:hover {
+    color: white;
+    transform: scale(1.05, 1.05);
 }

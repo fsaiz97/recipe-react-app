@@ -10,6 +10,7 @@ function Recipe({recipeData}) {
             <ul className='recipe-ingredients'>
                 {recipeData.ingredients.map((entry, idx) => <li id={`${recipeData.name}-ingredient-${idx}`} className='recipe-ingredient'>{entry}</li>)}
             </ul>
+            <button className='like-btn'>Like</button>
         </div>
     )
 }
